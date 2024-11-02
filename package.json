@@ -1,0 +1,33 @@
+{
+  "name": "auth-license-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "build": "next build",
+    "start": "next start -p 8080",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@next/swc-wasm-nodejs": "13.5.1",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "keycloak-js": "^22.0.0",
+    "next": "13.5.1",
+    "next-auth": "^4.24.7",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.53.0",
+    "typescript": "5.2.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "20.6.2",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.5.1"
+  }
+}
